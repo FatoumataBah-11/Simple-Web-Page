@@ -60,7 +60,9 @@ button:hover {
 }
 
 .image-container img {
-    width: 300px;
+    width: 100%;        /* Make images responsive */
+    max-width: 250px;   /* Limit maximum size */
+    height: auto;       /* Maintain aspect ratio */
     border-radius: 10px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
